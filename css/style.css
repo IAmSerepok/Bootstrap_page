@@ -1,0 +1,68 @@
+.center-cls{
+  display: block;
+  margin: 0 auto;
+  font-size: 1.25em;
+  text-align: center;
+}
+.navbar, .white-link{
+  background-color: rgb(7, 103, 176) !important;
+  color: white !important;
+}
+.worker-card-cls{
+  margin: 2em 0;
+}
+.footer-cls{
+  display: block;
+  background-color: rgb(7, 103, 176);
+  height: 11em;
+}
+.nav-pos-cls{
+  padding: 10em;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 1em 0;
+}
+.footer-div-cls{
+  display: block;
+  padding: 2em 7em;
+  color: white;
+}
+.white-cls{
+  color: gray;
+}
+.h-cls{
+  text-align: center;
+  font-weight: 750;
+}
+.cls1{
+  color: rgb(7, 103, 176);
+  font-size: 2.75em;
+}
+.cls2{
+  background-color: gainsboro;
+  height: 0.3em;
+}
+.cls3{
+  padding-top: 1em;
+}
+.modal-header{
+  background-color: whitesmoke;
+}
+p, h1, h2, h3, h4, h5, h6, strong, em, ul, li{
+  font-family: 'Noto Sans', sans-serif;
+}
+.sticky-cls{
+  position: sticky;
+  top: 4em;
+  z-index: 9999;
+}
+.header-sticky{
+  height: 2em;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+.modal{
+  z-index: 99999;
+}
