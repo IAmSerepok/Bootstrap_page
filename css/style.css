@@ -14,7 +14,7 @@
 .footer-cls{
   display: block;
   background-color: rgb(7, 103, 176);
-  height: 11em;
+  height: 14em;
 }
 .nav-pos-cls{
   padding: 4em;
@@ -107,9 +107,4 @@ p, h1, h2, h3, h4, h5, h6, strong, em, ul, li{
 .card-center-cls{
   display: block;
   margin: 1.9em;
-}
-footer{
-  @media (max-width: 768px) {
-    visibility: hidden;
-  }
 }
