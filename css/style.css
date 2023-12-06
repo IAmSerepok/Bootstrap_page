@@ -4,6 +4,11 @@
   font-size: 1.25em;
   text-align: center;
 }
+.center-cls1{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
 .navbar, .white-link{
   background-color: rgb(7, 103, 176) !important;
   color: white !important;
@@ -24,21 +29,14 @@
     height: 28em;
   }
 }
-.sdvg{
-  @media (max-width: 776px) {
-    margin-left: 8em;
-  }
-}
 .nav-pos-cls{
   padding: 4em;
   position: sticky;
   top: 0;
   left: 0;
-  margin: 1em 0;
 }
 .footer-div-cls{
   display: block;
-  padding: 0 5em;
   color: white;
 }
 .white-cls{
@@ -103,6 +101,20 @@ p, h1, h2, h3, h4, h5, h6, strong, em, ul, li{
     width: 314px;
   }
 }
+.partners{
+  @media (min-width: 1200px) {
+    height: 421px;
+    width: 448px;
+  }
+  @media (max-width: 1200px) {
+    height: 350px;
+    width: 380px;
+  }
+  @media (max-width: 700px) {
+    height: 140px;
+    width: 200px;
+  }
+}
 .nav-cls{
   @media (min-width: 1200px) {
     font-size: 1em;
@@ -117,5 +129,12 @@ p, h1, h2, h3, h4, h5, h6, strong, em, ul, li{
 .card-center-cls{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+}
+.fl-center{
+  display: flex;
+  align-self: centers;
+}
+.sdvg{
+  padding-left: 5em;
 }
